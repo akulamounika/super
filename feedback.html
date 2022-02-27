@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>simple form</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-image: url(https://wallpapercave.com/wp/wp2561082.jpg);
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 60vh;
+        }
+
+        .copy {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            border-bottom: 4px dotted black;
+
+        }
+
+        .copy h1 {
+            font-size: 40px;
+            color: green;
+        }
+
+
+
+
+
+        .search {
+            display: flex;
+            justify-content: center;
+        }
+
+        .nav ul {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            list-style: none;
+            width: 400px;
+            font-size: 24px;
+            color: palevioletred;
+
+
+
+
+
+        }
+
+        fieldset {
+            margin-left: 400px;
+            margin-right: 400px;
+            margin-top: 200px;
+            font-size: 26px;
+            color: rgb(60, 104, 185);
+
+        }
+
+        .footer {
+            font-size: 20px;
+            color: rgb(138, 30, 97);
+        }
+    </style>
+</head>
+
+
+<body>
+    <header>
+        <div class="copy">
+            <h1> Feedback is valuable....</h1>
+            <div class="search">
+                <input type="search" name="search" placeholder="please search here">
+                <i class="fa fa-search" aria-hidden="true"></i>
+            </div>
+            <div class="nav">
+                <ul>
+                    <i class="fa fa-home" aria-hidden="true"></i>
+                    <li><a href="./home.html">home</a></li>
+                    <i class="fa fa-sign-in" aria-hidden="true"></i>
+                    <li><a href="./signin.html">signin</a></li>
+                    <i class="fa fa-commenting-o" aria-hidden="true"></i>
+                    <li><a href="#">feedback</a></li>
+                    <i class="fa fa-info" aria-hidden="true"></i>
+                    <li><a href="./about.html">about</a></li>
+
+                </ul>
+            </div>
+    </header>
+    <main>
+        <fieldset>
+
+            <label>Feedback</label>
+            <br>
+            <textarea placeholder="Enter ur feedback...."></textarea>
+
+            <br>
+            <input type="submit" namme="subbmit" class="footer">
+
+
+        </fieldset>
+    </main>
+</body>
+
+</html>
